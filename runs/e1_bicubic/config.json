@@ -1,0 +1,17 @@
+{
+ "model": "bicubic",
+ "width": 16,
+ "domain": "ldr",
+ "gbuffer": false,
+ "temporal": false,
+ "loss": {
+  "l1": 1.0
+ },
+ "iters": 20000,
+ "batch": 16,
+ "patch": 48,
+ "lr": 0.002,
+ "max_minutes": 35,
+ "seed": 0,
+ "name": "e1_bicubic"
+}

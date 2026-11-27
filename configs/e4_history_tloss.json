@@ -1,0 +1,18 @@
+{
+ "model": "liteunet",
+ "width": 16,
+ "domain": "mulaw",
+ "gbuffer": true,
+ "temporal": true,
+ "loss": {
+  "l1": 1.0,
+  "temporal": 0.5
+ },
+ "iters": 20000,
+ "batch": 16,
+ "patch": 48,
+ "lr": 0.002,
+ "max_minutes": 100,
+ "seed": 0,
+ "name": "e4_history_tloss"
+}

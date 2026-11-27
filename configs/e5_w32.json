@@ -1,0 +1,17 @@
+{
+ "model": "liteunet",
+ "width": 32,
+ "domain": "mulaw",
+ "gbuffer": false,
+ "temporal": false,
+ "loss": {
+  "l1": 1.0
+ },
+ "iters": 20000,
+ "batch": 16,
+ "patch": 48,
+ "lr": 0.002,
+ "max_minutes": 65,
+ "seed": 0,
+ "name": "e5_w32"
+}
