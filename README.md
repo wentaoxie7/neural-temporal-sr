@@ -112,8 +112,8 @@ temporal loss that matches the output's frame-to-frame change to the reference's
 
 ## 5. Results
 
-4 held-out test sequences (96 frames), single training seed. Full table in `results/summary.md`,
-image crops in `results/comparison.png`.
+4 held-out test sequences (96 frames), single training seed. Full table in [`results/summary.md`](results/summary.md),
+image crops in [`results/comparison.png`](results/comparison.png).
 
 | Run | Params | GMACs@1080p | PSNR | SSIM | ΔE | Flicker |
 |---|---|---|---|---|---|---|
